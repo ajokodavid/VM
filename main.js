@@ -12,9 +12,9 @@ function anime() {
 let i = 0;
 
 function timedCount() {
-  i ++;
+  ++i;
   postMessage(i);
-  setInterval("timedCount()",2);
+  setInterval(timedCount, 1);
 }
 
 timedCount();
