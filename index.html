@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VM</title>
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body onload="anime()">
+    <div class="container">
+    <p id="show">Show Game: <output id="result"></output></p>
+<button onclick="startWorker()" class="btn btn-danger" type="button">Start Game</button>
+<!-- <button onclick="stopWorker()" class="btn btn-success">Stop Game</button> -->
+<p id="stylos"></p>
+</div>
+    
+
+    
+<script src="main.js"></script>
+<script src="worker.js"></script>
+<script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
